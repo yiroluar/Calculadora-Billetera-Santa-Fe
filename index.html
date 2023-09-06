@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="Billetera, Santa Fe, Santa, Fe, Monto, Reintegro, Plus, Pagos, Plus Pagos" />
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+<link href="styles/style.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <center><img class="logo-billetera-header" src="img/logo.png" alt="Logo Pluspagos">
-    <h1>Calculadora de Reintegro Billetera Santa Fe</h1></center>
+    <center><img class="logo-billetera-header scale-up-bottom" src="img/logo.png" alt="Logo Pluspagos">
+    <h1 class="tracking-in-expand">Calculadora de Reintegro Billetera Santa Fe</h1></center>
     
 <center>
-    <div class="calculadora-container">
+    <div class="calculadora-container scale-up-horizontal-left">
         
     <label for="valorCompra">Ingresa el valor de la compra:</label>
     <input type="number" id="valorCompra">
@@ -25,8 +25,8 @@
 
     <ul id="listaCompras"></ul>
     
-    <p class="total-texto">Total de Compras: $<span id="totalCompras">0.00</span></p>
-    <p class="reintegro-texto">Reintegro Total: $<span id="reintegroAcumulado">0.00</span></p>
+    <p class="total-texto tracking-in-expand">Total de Compras: $<span id="totalCompras">0.00</span></p>
+    <p class="reintegro-texto tracking-in-expand">Reintegro Total: $<span id="reintegroAcumulado">0.00</span></p>
 
     <div id="alerta" class="shake-horizontal">
         <i class="fa-solid fa-exclamation fa-bounce"></i> <b>ALERTA:</b> Alcanzaste el monto máximo de reintegro</div></div>
