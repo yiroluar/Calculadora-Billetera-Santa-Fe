@@ -2,12 +2,11 @@
 <html>
 <head>
     <title>Calculadora de Reintegro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="Billetera, Santa Fe, Santa, Fe, Monto, Reintegro, Plus, Pagos, Plus Pagos" />
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
-                
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
@@ -22,23 +21,21 @@
     
     <button class="añadir-producto" onclick="agregarCompra()"><i class="fa-solid fa-plus"></i> Añadir otro producto</button>
     <br>
-    <button class="calcular-reintegro" onclick="calcularReintegroTotal()">Calcular  <i class="fa-solid fa-arrow-right"></i></button>
+    <button class="calcular-reintegro" onclick="calcularReintegroTotal()">Calcular Monto Total  <i class="fa-solid fa-arrow-right"></i></button>
 
-    <ul id="listaCompras">
-    </ul>
+    <ul id="listaCompras"></ul>
     
     <p class="total-texto">Total de Compras: $<span id="totalCompras">0.00</span></p>
-    <p class="reintegro-texto">Reintegro Acumulado: $<span id="reintegroAcumulado">0.00</span></p>
+    <p class="reintegro-texto">Reintegro Total: $<span id="reintegroAcumulado">0.00</span></p>
 
     <div id="alerta" class="shake-horizontal">
-        <i class="fa-solid fa-exclamation fa-bounce"></i> Alerta: Usted ha alcanzado el monto máximo de reintegro</div></div>
+        <i class="fa-solid fa-exclamation fa-bounce"></i> <b>ALERTA:</b> Alcanzaste el monto máximo de reintegro</div></div>
 
 
 
 </center>
 
-    <script src="js/script.js">
-      
-    </script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>

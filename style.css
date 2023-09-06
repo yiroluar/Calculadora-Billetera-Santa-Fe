@@ -4,9 +4,6 @@ body {
     font-family: poppins;
 }
 
-.calculadora-container {
-
-}
 
 .añadir-producto {
     color: white;
@@ -44,7 +41,14 @@ body {
     background-color: #032869;
 
 }
+ul {
+    list-style: decimal;
+}
 
+li {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 
 .borrar-button {
 background: #fd0303;
@@ -58,6 +62,8 @@ padding-right: 10px;
 border: none;
 cursor: pointer;
 font-size: 1.5em;
+position: fixed;
+right:20px;
 }
 
 .borrar-button:hover {
@@ -73,6 +79,12 @@ color: white;
 padding: 10px;
 display: none;
 border-radius: 6px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#alerta i {
+  padding-right: 10px;
 }
 
 input {
@@ -90,6 +102,7 @@ label {
 background-color: #f5f4fe;
 color: rgb(41, 41, 41);
 text-align: left;
+border-radius: 6px;
 }
 
 .compra-text {
@@ -165,3 +178,141 @@ li {
   
 
 .shake-horizontal{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}
+
+
+
+
+@media (max-width: 767px) {
+  /* Your CSS rules for phones go here */
+
+
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+  }
+
+  input {
+    width: 25em;
+    height: 3em;
+    margin-top: 10px;
+
+    }
+    
+    label {
+        font-size: 1.3em;
+      }
+    
+      .añadir-producto {
+        background-color: transparent;
+        color: white;
+        font-family: poppins;
+        height: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: solid white;
+        cursor: pointer; 
+        animation-name: beat;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        font-size: 1.3em;
+        width: 350px;
+    }
+    
+    .calcular-reintegro {
+        background-color: #043892;
+        color: white;
+        font-family: poppins;
+        height: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: solid white;
+        cursor: pointer; 
+        animation-name: beat;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        font-size: 1.3em;
+        width: 350px;
+        
+    }
+
+    #alerta {
+      position: absolute;
+      top: 10px;
+      right: 0px;
+      width: 370px;
+      background-color: #fd0303;
+      color: white;
+      padding: 10px;
+      display: none;
+      border-radius: 6px;
+      
+      }
+        
+    
+      
+#listaCompras 
+{
+background-color: #f5f4fe;
+color: rgb(41, 41, 41);
+text-align: left;
+border-radius: 6px;
+}
+
+.compra-text {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.monto-compra {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#totalCompras {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+
+#reintegroAcumulado {
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+.total-texto {
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.borrar-button {
+  background: #fd0303;
+  color: white;
+  border-radius: 6px;
+  
+  font-family: poppins;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  position: fixed;
+  right:20px;
+  top: 10px;
+  font-weight: 100;
+  }
+
+  
+li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+}
