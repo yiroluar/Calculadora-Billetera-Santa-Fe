@@ -1,9 +1,8 @@
 body {
     background-color: #051640;
-    color: #f5f4fe;
+    color: white;
     font-family: poppins;
 }
-
 
 .añadir-producto {
     color: white;
@@ -100,7 +99,7 @@ label {
 
 #listaCompras 
 {
-background-color: #f5f4fe;
+background-color: white;
 color: rgb(41, 41, 41);
 text-align: left;
 border-radius: 6px;
@@ -215,9 +214,6 @@ li {
         border-radius: 6px;
         border: solid white;
         cursor: pointer; 
-        animation-name: beat;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
         font-size: 1.3em;
         width: 350px;
     }
@@ -258,7 +254,7 @@ li {
       
 #listaCompras 
 {
-background-color: #f5f4fe;
+background-color: white;
 color: rgb(41, 41, 41);
 text-align: left;
 border-radius: 6px;
